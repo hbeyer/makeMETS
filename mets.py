@@ -71,7 +71,7 @@ class METSBuilder:
                         print("dv:presentation konnte nicht gesetzt werden.")
                 fgg = root.findall('.//{http://www.loc.gov/METS/}fileGrp')
                 for fg in fgg:
-                        fg = appendFiles(fg, self.struct, self.sign)
+                        fg = self.appendFiles(fg)
                 sm = root.findall('.//{http://www.loc.gov/METS/}div')
                 for sm in sm:
                         if sm.attrib["TYPE"] == "physSequence":
@@ -97,27 +97,26 @@ class METSBuilder:
                 f = open(fileName, "w", -1, "utf_8")
                 tree.write(f, encoding="unicode")
                 return(1)
-
-def appendFiles(fg, struct, sign):
-        use = fg.attrib["USE"]
-        concordance = { "DOWNLOAD" : "/download", "THUMBS" : "/thumbs", "DEFAULT" : "", "ORIGINAL" : "/max", "MAX" : "/max", "MIN" : "/min" }
-        ending = ".jpg"
-        if use == "DOWNLOAD":
-                ending = ".pdf"
-        for struct in struct:
-                fileEl = et.SubElement(fg, "mets:file")
-                fileEl.set("ID", "FILE_" + struct["page"] + "_" + use)
+        def appendFiles(self, fg):
+                use = fg.attrib["USE"]
+                concordance = { "DOWNLOAD" : "/download", "THUMBS" : "/thumbs", "DEFAULT" : "", "ORIGINAL" : "/max", "MAX" : "/max", "MIN" : "/min" }
+                ending = ".jpg"
                 if use == "DOWNLOAD":
-                        fileEl.set("MIMETYPE", "application/pdf")
-                else:
-                        fileEl.set("MIMETYPE", "image/jpeg")
-                if struct["page"] == "00001" and use != "DOWNLOAD":
-                        fileEl.set("USE", "PREVIEW")
-                flocatEl = et.SubElement(fileEl, "mets:FLocat")
-                flocatEl.set("LOCTYPE", "URL")
-                flocatEl.set("LOCTYPE", "URL")
-                flocatEl.set("{http://www.w3.org/1999/xlink}href", "http://diglib.hab.de/mss/" + sign + concordance[use] + "/" + struct["page"] + ending)
-        return(fg)
+                        ending = ".pdf"
+                for struct in self.struct:
+                        fileEl = et.SubElement(fg, "mets:file")
+                        fileEl.set("ID", "FILE_" + struct["page"] + "_" + use)
+                        if use == "DOWNLOAD":
+                                fileEl.set("MIMETYPE", "application/pdf")
+                        else:
+                                fileEl.set("MIMETYPE", "image/jpeg")
+                        if struct["page"] == "00001" and use != "DOWNLOAD":
+                                fileEl.set("USE", "PREVIEW")
+                        flocatEl = et.SubElement(fileEl, "mets:FLocat")
+                        flocatEl.set("LOCTYPE", "URL")
+                        flocatEl.set("LOCTYPE", "URL")
+                        flocatEl.set("{http://www.w3.org/1999/xlink}href", "http://diglib.hab.de/mss/" + self.sign + concordance[use] + "/" + struct["page"] + ending)
+                return(fg)
 
 def extractNumber(number):
         no = re.findall("http://diglib.hab.de/mss/[^/]+/([0-9]+).jpg", number)

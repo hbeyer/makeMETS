@@ -6,7 +6,7 @@
 import mets as mets
 
 # Beispiel: Erzeugen einer METS-Datei für das Digitalisat http://diglib.hab.de/mss/ed000371/start.htm:
-# Als erster Parameter wird die normierte Signatur (ohne "mss/") übergeben. Der zweite, optionale, Parameter enthält einen Titel für das Digitalisat
+# Als erster Parameter wird die normierte Signatur (ohne "mss/") übergeben. Der zweite, optionale Parameter enthält einen Titel für das Digitalisat
 builder = mets.METSBuilder("ed000371", "Landesarchiv Thüringen - Hauptstaatsarchiv Weimar, EGA, Reg. O, Nr. 225")
 builder.build()
 
