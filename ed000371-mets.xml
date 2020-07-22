@@ -1,0 +1,131 @@
+<mets:mets xmlns:dv="http://www.dfg-viewer.de" xmlns:mets="http://www.loc.gov/METS/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/mods.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+    <mets:metsHdr CREATEDATE="2020-07-16T17:54:58.863+02:00">
+        <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+            <mets:name>Handschriftendatenbank der Herzog August Bibliothek Wolfenbüttel</mets:name>
+        </mets:agent>
+    </mets:metsHdr>
+    <mets:dmdSec ID="DMDLOG_0000">
+        <mets:mdWrap MDTYPE="TEIHDR">
+            <mets:xmlData>
+                <tei:teiHeader>
+                    <tei:fileDesc>
+                        <tei:titleStmt>
+                            <tei:title>Provisorisches METS-Dokument</tei:title>
+                            <tei:respStmt>
+                                <tei:resp>Erstellt durch </tei:resp>
+                                <tei:name type="person">Hartmut Beyer</tei:name>
+                                <tei:name type="org">Herzog August Bibliothek Wolfenbüttel</tei:name>
+                            </tei:respStmt>
+                        </tei:titleStmt>
+                        
+                        <tei:publicationStmt>
+                            <tei:publisher>
+                                <tei:name type="org">Herzog August Bibliothek Wolfenbüttel</tei:name>
+                                <tei:ptr target="http://www.hab.de" />
+                            </tei:publisher>
+                            <tei:date type="issued" when="2020-07-15">15.07.2020</tei:date>
+                            
+                            <tei:distributor>Herzog August Bibliothek</tei:distributor>
+                            <tei:availability status="free">
+                                <tei:licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.de">
+                                    
+                                    <tei:p>Für die Nutzung weiterer Daten wie Digitalisaten gelten gegebenenfalls andere Lizenzen. Vgl. die <tei:ref target="http://diglib.hab.de/?link=012">Copyright Information</tei:ref> der Herzog August Bibliothek Wolfenbüttel.</tei:p>
+                                </tei:licence>
+                            </tei:availability>
+                            <tei:pubPlace>
+                                <tei:ptr target="http://diglib.hab.de/mss/ed000213/start.htm" type="purl" />
+                                <tei:ptr target="http://diglib.hab.de/mss/ed000213/thumbs/00001.jpg" type="thumbnailForPresentations" />
+                            </tei:pubPlace>
+                            
+                        </tei:publicationStmt>
+                        <tei:sourceDesc>
+                            <tei:msDesc xml:id="prov1" xml:lang="de">
+                                <tei:msIdentifier>
+                                    <tei:settlement>-</tei:settlement>
+                                    
+                                    <tei:repository>-</tei:repository>
+                                    
+                                    <tei:collection>-</tei:collection>
+                                    
+                                    <tei:idno sortKey="Sortierform">-</tei:idno>
+                                    
+                                </tei:msIdentifier>
+                                <tei:head>
+                                    <tei:title>Landesarchiv Thüringen - Hauptstaatsarchiv Weimar, EGA, Reg. O, Nr. 225</tei:title>
+                                    
+                                </tei:head>
+                                <tei:physDesc>
+                                    
+                                </tei:physDesc>
+                                <tei:additional>
+                                    
+                                </tei:additional>
+                            </tei:msDesc>
+                        </tei:sourceDesc>
+                    </tei:fileDesc>
+                    <tei:encodingDesc>
+                        <tei:projectDesc>
+                            <tei:p>Handschrift digitalisiert im Rahmen des Projektes <tei:name type="project">Kritische Gesamtausgabe der Schriften und Briefe Andreas Bodensteins von Karlstadt</tei:name>.</tei:p>
+                        </tei:projectDesc>
+                    </tei:encodingDesc>
+                </tei:teiHeader>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="AMD">
+        <mets:rightsMD ID="RIGHTS">
+            <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+                <mets:xmlData>
+                    <dv:rights>
+                        <dv:owner>Herzog August Bibliothek Wolfenbüttel</dv:owner>
+                        <dv:ownerLogo>http://www.hab.de/images/logo_dfg_viewer.gif</dv:ownerLogo>
+                        <dv:ownerSiteURL>http://www.hab.de/</dv:ownerSiteURL>
+                        <dv:ownerContact>mailto:auskunft@hab.de</dv:ownerContact>
+                    </dv:rights>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:rightsMD>
+        <mets:digiprovMD ID="DIGIPROV">
+            <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+                <mets:xmlData>
+                    <dv:links>
+                        
+                        <dv:presentation>http://diglib.hab.de/mss/ed000371/start.htm</dv:presentation>
+                    </dv:links>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="DOWNLOAD">
+            
+        <mets:file ID="FILE_00001_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00001.pdf" /></mets:file><mets:file ID="FILE_00002_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00002.pdf" /></mets:file><mets:file ID="FILE_00003_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00003.pdf" /></mets:file><mets:file ID="FILE_00004_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00004.pdf" /></mets:file><mets:file ID="FILE_00005_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00005.pdf" /></mets:file><mets:file ID="FILE_00006_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00006.pdf" /></mets:file><mets:file ID="FILE_00007_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00007.pdf" /></mets:file><mets:file ID="FILE_00008_DOWNLOAD" MIMETYPE="application/pdf"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/download/00008.pdf" /></mets:file></mets:fileGrp>
+        <mets:fileGrp USE="THUMBS">
+            
+        <mets:file ID="FILE_00001_THUMBS" MIMETYPE="image/jpeg" USE="PREVIEW"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00001.jpg" /></mets:file><mets:file ID="FILE_00002_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00002.jpg" /></mets:file><mets:file ID="FILE_00003_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00003.jpg" /></mets:file><mets:file ID="FILE_00004_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00004.jpg" /></mets:file><mets:file ID="FILE_00005_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00005.jpg" /></mets:file><mets:file ID="FILE_00006_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00006.jpg" /></mets:file><mets:file ID="FILE_00007_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00007.jpg" /></mets:file><mets:file ID="FILE_00008_THUMBS" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/thumbs/00008.jpg" /></mets:file></mets:fileGrp>
+        <mets:fileGrp USE="DEFAULT">
+            
+        <mets:file ID="FILE_00001_DEFAULT" MIMETYPE="image/jpeg" USE="PREVIEW"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00001.jpg" /></mets:file><mets:file ID="FILE_00002_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00002.jpg" /></mets:file><mets:file ID="FILE_00003_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00003.jpg" /></mets:file><mets:file ID="FILE_00004_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00004.jpg" /></mets:file><mets:file ID="FILE_00005_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00005.jpg" /></mets:file><mets:file ID="FILE_00006_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00006.jpg" /></mets:file><mets:file ID="FILE_00007_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00007.jpg" /></mets:file><mets:file ID="FILE_00008_DEFAULT" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/00008.jpg" /></mets:file></mets:fileGrp>
+        <mets:fileGrp USE="ORIGINAL">
+            
+        <mets:file ID="FILE_00001_ORIGINAL" MIMETYPE="image/jpeg" USE="PREVIEW"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00001.jpg" /></mets:file><mets:file ID="FILE_00002_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00002.jpg" /></mets:file><mets:file ID="FILE_00003_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00003.jpg" /></mets:file><mets:file ID="FILE_00004_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00004.jpg" /></mets:file><mets:file ID="FILE_00005_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00005.jpg" /></mets:file><mets:file ID="FILE_00006_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00006.jpg" /></mets:file><mets:file ID="FILE_00007_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00007.jpg" /></mets:file><mets:file ID="FILE_00008_ORIGINAL" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00008.jpg" /></mets:file></mets:fileGrp>
+        <mets:fileGrp USE="MAX">
+            
+        <mets:file ID="FILE_00001_MAX" MIMETYPE="image/jpeg" USE="PREVIEW"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00001.jpg" /></mets:file><mets:file ID="FILE_00002_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00002.jpg" /></mets:file><mets:file ID="FILE_00003_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00003.jpg" /></mets:file><mets:file ID="FILE_00004_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00004.jpg" /></mets:file><mets:file ID="FILE_00005_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00005.jpg" /></mets:file><mets:file ID="FILE_00006_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00006.jpg" /></mets:file><mets:file ID="FILE_00007_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00007.jpg" /></mets:file><mets:file ID="FILE_00008_MAX" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/max/00008.jpg" /></mets:file></mets:fileGrp>
+        <mets:fileGrp USE="MIN">
+            
+        <mets:file ID="FILE_00001_MIN" MIMETYPE="image/jpeg" USE="PREVIEW"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00001.jpg" /></mets:file><mets:file ID="FILE_00002_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00002.jpg" /></mets:file><mets:file ID="FILE_00003_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00003.jpg" /></mets:file><mets:file ID="FILE_00004_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00004.jpg" /></mets:file><mets:file ID="FILE_00005_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00005.jpg" /></mets:file><mets:file ID="FILE_00006_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00006.jpg" /></mets:file><mets:file ID="FILE_00007_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00007.jpg" /></mets:file><mets:file ID="FILE_00008_MIN" MIMETYPE="image/jpeg"><mets:FLocat LOCTYPE="URL" xlink:href="http://diglib.hab.de/mss/ed000371/min/00008.jpg" /></mets:file></mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div ADMID="AMD" CONTENTIDS="http://diglib.hab.de/?db=mss&amp;list=ms&amp;id=dd-hsta-10024-gr-loc-10300-2-48r-48v" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="" TYPE="manuscript" />
+    </mets:structMap>
+    <mets:structMap TYPE="PHYSICAL">
+        <mets:div ID="PHYS_0000" TYPE="physSequence">
+            <mets:fptr FILEID="FULLDOWNLOAD" />
+            
+        <mets:div ID="PHYS_00001" ORDER="1" TYPE="page"><mets:fptr FILEID="FILE_00001_DOWNLOAD" /><mets:fptr FILEID="FILE_00001_THUMBS" /><mets:fptr FILEID="FILE_00001_DEFAULT" /><mets:fptr FILEID="FILE_00001_MAX" /><mets:fptr FILEID="FILE_00001_MIN" /></mets:div><mets:div ID="PHYS_00002" ORDER="2" TYPE="page"><mets:fptr FILEID="FILE_00002_DOWNLOAD" /><mets:fptr FILEID="FILE_00002_THUMBS" /><mets:fptr FILEID="FILE_00002_DEFAULT" /><mets:fptr FILEID="FILE_00002_MAX" /><mets:fptr FILEID="FILE_00002_MIN" /></mets:div><mets:div ID="PHYS_00003" ORDER="3" TYPE="page"><mets:fptr FILEID="FILE_00003_DOWNLOAD" /><mets:fptr FILEID="FILE_00003_THUMBS" /><mets:fptr FILEID="FILE_00003_DEFAULT" /><mets:fptr FILEID="FILE_00003_MAX" /><mets:fptr FILEID="FILE_00003_MIN" /></mets:div><mets:div ID="PHYS_00004" ORDER="4" TYPE="page"><mets:fptr FILEID="FILE_00004_DOWNLOAD" /><mets:fptr FILEID="FILE_00004_THUMBS" /><mets:fptr FILEID="FILE_00004_DEFAULT" /><mets:fptr FILEID="FILE_00004_MAX" /><mets:fptr FILEID="FILE_00004_MIN" /></mets:div><mets:div ID="PHYS_00005" ORDER="5" TYPE="page"><mets:fptr FILEID="FILE_00005_DOWNLOAD" /><mets:fptr FILEID="FILE_00005_THUMBS" /><mets:fptr FILEID="FILE_00005_DEFAULT" /><mets:fptr FILEID="FILE_00005_MAX" /><mets:fptr FILEID="FILE_00005_MIN" /></mets:div><mets:div ID="PHYS_00006" ORDER="6" TYPE="page"><mets:fptr FILEID="FILE_00006_DOWNLOAD" /><mets:fptr FILEID="FILE_00006_THUMBS" /><mets:fptr FILEID="FILE_00006_DEFAULT" /><mets:fptr FILEID="FILE_00006_MAX" /><mets:fptr FILEID="FILE_00006_MIN" /></mets:div><mets:div ID="PHYS_00007" ORDER="7" TYPE="page"><mets:fptr FILEID="FILE_00007_DOWNLOAD" /><mets:fptr FILEID="FILE_00007_THUMBS" /><mets:fptr FILEID="FILE_00007_DEFAULT" /><mets:fptr FILEID="FILE_00007_MAX" /><mets:fptr FILEID="FILE_00007_MIN" /></mets:div><mets:div ID="PHYS_00008" ORDER="8" TYPE="page"><mets:fptr FILEID="FILE_00008_DOWNLOAD" /><mets:fptr FILEID="FILE_00008_THUMBS" /><mets:fptr FILEID="FILE_00008_DEFAULT" /><mets:fptr FILEID="FILE_00008_MAX" /><mets:fptr FILEID="FILE_00008_MIN" /></mets:div></mets:div>
+    </mets:structMap>
+    <mets:structLink>
+        
+    <mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00001" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00002" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00003" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00004" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00005" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00006" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00007" /><mets:smLink xlink:from="LOG_000" xlink:to="PHYS_00008" /></mets:structLink>
+</mets:mets>
