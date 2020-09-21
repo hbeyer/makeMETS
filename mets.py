@@ -125,4 +125,4 @@ def extractNumber(number):
 def removeLinebreaks(text, replacement=" "):
 	text = text.replace("\n", replacement)
 	text = text.replace("  ", " ")
-	return(text)        
+	return(text)
